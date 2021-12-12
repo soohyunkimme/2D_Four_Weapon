@@ -24,7 +24,7 @@ public class PlayerWeapon : MonoBehaviour
         Vector2 v = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float degree = Mathf.Atan2(v.y, v.x) * Mathf.Rad2Deg;
         //float rot = Mathf.LerpAngle(gameObject.transform.eulerAngles.z, degree, Time.deltaTime * 6f);
-        transform.eulerAngles = new Vector3(0, 0, degree);
+        transform.eulerAngles = new Vector3(0, 0, degree - 90f);
     }
 
     public void Attack()
