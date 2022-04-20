@@ -1083,7 +1083,8 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 8
-  jumpPower: 3
+  plusJumpCount: 1
+  jumpPower: 6
 --- !u!114 &1426281631
 MonoBehaviour:
   m_ObjectHideFlags: 0
